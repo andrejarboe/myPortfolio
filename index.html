@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
   <link rel="stylesheet" href=".\assets\css\style.css">
   <title>Materialize Portfolio</title>
 </head>
@@ -17,25 +18,65 @@
   <!-- nav bar -->
   <nav>
     <div class="nav-wrapper grey darken-4">
-      <a href="#!" class="brand-logo"> <span class="logo light-blue-text lighten-3">Jarboe</span> Studios</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="about.html">About</a></li>
-        <li><a href="badges.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class="container">
+        <a href="#!" class="brand-logo">
+          <span class="logo light-blue-text lighten-3">Jarboe</span> Studios</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="badges.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+
   </nav>
 
   <!-- Profile -->
-<h1>asdf</h1>
+  <div id="profile" class="row">
+    <div class="container">
+      <div class="card-panel col l4 s12">
+          <img id="profile" src="./assets/img/profilePic.jpg" alt="" style=""/>
+      </div>
+      <div class="col l8 s12">
+        <div class="card-panel">
+            <h3>Andre' Jarboe II</h3>
+            <div class="line"></div>
+            <h4>Fullstack Web Developer</h4>
+            <p>
+                "Complain and be nothing, or work and be something..."
+            </p>
+            <span class="author">-Andre' Jarboe II</span>
+        </div>
+      </div>    
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="page-footer grey darken-4">
     <div class="container">
@@ -47,19 +88,29 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Site Map</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Portfolio</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>            
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Home</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">About</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Portfolio</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Blog</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-     Designed and coded by Andre ' Jarboe II © 2018 
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        Designed and coded by Andre ' Jarboe II © 2018
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
   </footer>
